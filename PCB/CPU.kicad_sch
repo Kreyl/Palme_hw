@@ -1,11 +1,11 @@
-(kicad_sch (version 20200827) (generator eeschema)
+(kicad_sch (version 20200828) (generator eeschema)
 
   (page 2 3)
 
   (paper "A4")
 
   (lib_symbols
-    (symbol "power:GND" (power) (pin_names (offset 0.254))
+    (symbol "power:GND" (power) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 2.286 -0.508 0)
         (effects (font (size 0.762 0.762)) hide)
       )
