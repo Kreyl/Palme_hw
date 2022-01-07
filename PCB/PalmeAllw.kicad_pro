@@ -326,7 +326,7 @@
       "no_connect_dangling": "error",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "error",
       "unannotated": "error",
@@ -346,7 +346,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 6.0,
+        "bus_width": 11.811023622047244,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -361,6 +361,55 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 11.811023622047244,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Pwr",
+        "nets": [
+          "/CPU/+AVCCPLL",
+          "/CPU/+VCC1V2HSIC",
+          "/CPU/+VCC3V3VID",
+          "/CPU/+VCCIO3V3",
+          "/CPU/+VCCPL1V8",
+          "/CPU/+VCCPLL",
+          "/CPU/+VCCRTC",
+          "/CPU/+VDD1V8",
+          "/CPU/+VDDCPUS1V1",
+          "/CPU/+VDDCPUX",
+          "/CPU/+VDDSYS1V1",
+          "/Power/+5V",
+          "/Power/+IPS",
+          "/Power/+USBVIN",
+          "/Power/+USBVOUT",
+          "/Power/+VBAT",
+          "/Power/+VCC3V3VID",
+          "/Power/+VCC_DRAM",
+          "/Power/+VDDCPUS1V1",
+          "/Power/+VDDCPUX",
+          "/Power/LDSNS",
+          "/Power/LX1",
+          "/Power/LX2",
+          "/Power/LX3",
+          "/Power/LX5",
+          "/Power/LX5V",
+          "/Power/LX6",
+          "/RAM/+VCC_DRAM",
+          "AGND",
+          "GND"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 15.0
       }
     ],
     "meta": {
@@ -423,7 +472,7 @@
   },
   "sheets": [
     [
-      "3d9b18ec-7db9-402c-ab62-433077441af0",
+      "9d739f9d-02ae-4a59-bbf0-19e7b3259cb9",
       ""
     ],
     [
@@ -433,6 +482,42 @@
     [
       "18428fa0-eed6-45cc-b11f-5a77958513a7",
       "Power"
+    ],
+    [
+      "e6be2efc-810c-4f9d-93e9-5449c4e16225",
+      "RAM"
+    ],
+    [
+      "3ed369d8-c4aa-4c42-8b35-e67f98fbe252",
+      "eMMC"
+    ],
+    [
+      "c3f535ed-0e65-45e9-8cb8-acd56df5309b",
+      "uSD"
+    ],
+    [
+      "7bc5435e-1e5a-42f3-bd07-59a3d87997ad",
+      "WiFiBt"
+    ],
+    [
+      "8774c7fe-961f-4bc1-9dbd-ec752a244dc3",
+      "STM32"
+    ],
+    [
+      "ead8cbd1-348d-44ce-8776-b2431ab4deae",
+      "LORA"
+    ],
+    [
+      "aba349ba-38e4-4d41-8744-1e9a3745d3fd",
+      "LCD"
+    ],
+    [
+      "6402e0f9-040d-4938-8003-ba7fc3e39f1d",
+      "GPS"
+    ],
+    [
+      "47f5385c-d89d-45ba-a894-d591530a5962",
+      "USB"
     ]
   ],
   "text_variables": {}

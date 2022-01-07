@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name "Allwinner")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/==Symbols==/Allwinner.kicad_sym")(options "")(descr ""))
 )
