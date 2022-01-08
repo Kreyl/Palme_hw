@@ -373,6 +373,9 @@
         "microvia_drill": 0.1,
         "name": "Pwr",
         "nets": [
+          "/+VCCIO3V3",
+          "/+VCC_DRAM",
+          "/+VDD1V8",
           "/CPU/+AVCCPLL",
           "/CPU/+VCC1V2HSIC",
           "/CPU/+VCC3V3VID",
